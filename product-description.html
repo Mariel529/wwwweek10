@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="After-Sales Support.html">After-Sales Support</a></li>
+                <li><a href="product-description.html">Products</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            <h1>Featured Products</h1>
+            <div class="product-item">
+                <img src="Gaming Laptop.jpg" alt="Laptop" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Gaming Laptop</h2>
+                <p>Powerful gaming laptop with the latest hardware.</p>
+                <p class="price">$1299.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Smartphone 16.jpg" alt="Smartphone" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Smartphone 16</h2>
+                <p>Latest model with advanced camera and long battery life.</p>
+                <p class="price">$699.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Tablet Pro.jpg" alt="Tablet" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Tablet Pro</h2>
+                <p>High-resolution tablet for work and entertainment.</p>
+                <p class="price">$499.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Wireless Headphones.jpg" alt="Headphones" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Wireless Headphones</h2>
+                <p>High-quality sound with noise cancellation.</p>
+                <p class="price">$199.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Smartwatch 4.jpg" alt="Smartwatch" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Smartwatch 4</h2>
+                <p>Health and fitness tracking with smart notifications.</p>
+                <p class="price">$299.99</p>
+            </div>
+            <div class="product-item">
+                <img src="DSLR Camera.jpg" alt="DSLR Camera" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>DSLR Camera</h2>
+                <p>Professional DSLR camera with interchangeable lenses.</p>
+                <p class="price">$999.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Laptop Pro.jpg" alt="Laptop Pro" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Laptop Pro</h2>
+                <p>High-performance laptop for business and design work.</p>
+                <p class="price">$1799.99</p>
+            </div>
+            <div class="product-item">
+                <img src="Noise Cancelling Earbuds.jpg" alt="Noise Cancelling Earbuds" onclick="openModal(this)" style="width: 100px; height: auto;">
+                <h2>Noise Cancelling Earbuds</h2>
+                <p>Compact and comfortable earbuds with active noise cancellation.</p>
+                <p class="price">$149.99</p>
+            </div>
+        </section>
+    </main>
+    <div id="modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <img id="modal-img" src="">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; ⌨️ E-commerce Website. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
